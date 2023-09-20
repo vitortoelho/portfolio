@@ -1,0 +1,110 @@
+
+
+/* FONTES
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Rubik Mono One', sans-serif; 
+*/
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #d7d7d7;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#lkd img {
+    padding-left: 8px;
+    margin-bottom: 7px;
+    height: 60px;
+}
+#git img {
+    padding-left: 6px;
+    margin-bottom: 7px;
+    height: 60px;
+}
+#ig img {
+    padding-left: 6px;
+    margin-bottom: 7px;
+    height: 60px;
+}
+#doc img {
+    padding-left: 6px;
+    margin-bottom: 7px;
+    height: 60px;
+}
+#tlg img {
+    padding-left: 6px;
+    margin-bottom: 7px;
+    height: 60px;
+}
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(335deg, rgba(255,255,255,1) 0%, rgba(58,106,116,1) 50%, rgba(13,72,84,1) 75%); 
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    margin-right: 5px;
+    line-height: .8;
+    font-size: 160px;
+    margin-left: 40px;
+}
+.titulo {
+    display: flex;
+    align-items: end;
+}
+h2 {
+    word-spacing: 1px;
+    font-size: 30px;
+    line-height: 0.9;
+    margin-top: 100px;
+    padding-left: 30px;
+}
+h3 {
+    line-height: 1px;
+    word-spacing: -8px;
+    font-size: 30px;
+    padding-top: 4px;
+    padding-left: 100px;
+
+}
+#lkd:hover, #git:hover, #ig:hover, #doc:hover, #tlg:hover {
+    transform: translateY(-10px);
+}
+#lkd, #git, #ig, #doc, #tlg {
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.placa {
+    max-width: 1700px;
+    width: 100%;
+}
+h4, h5, h6 {
+    word-spacing: -20px;
+    padding-left: 100px;
+    font-size: 40px;
+}
+h4 {
+    padding-top: 120px;
+}
+h5, h6 {
+    margin-left: 50px;
+}
+h6 {
+    margin-left: 100px;
+}
+h4, h5, h6 {
+    background: rgb(255,255,255);
+    background: linear-gradient(126deg, rgba(215,215,215,1) 0%, rgba(215,215,215,1) 53%, rgba(31,71,79,1) 60%, rgba(7,49,57,1) 100%);  
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
